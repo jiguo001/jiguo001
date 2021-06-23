@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/public.css">
-    <link rel="stylesheet" href="./css/use_all.css">
-    <title>极果---免费试用</title>
+    <title>酷玩—品类</title>
+    <link rel="stylesheet" href="./css/coldplaysort.css">
 </head>
 
 <body>
@@ -23,10 +22,10 @@
                     <a href="#">酷玩</a>
                 </li>
                 <li>
-                    <a href="#">导购</a>
+                    <a href="../guid/zuixin.html">导购</a>
                 </li>
                 <li>
-                    <a href="#">试用</a>
+                    <a href="../use/use_all.html">试用</a>
                 </li>
                 <li>
                     <a href="#">报告</a>
@@ -36,37 +35,19 @@
             <h1><img src="../img/search.png" alt=""></h1>
         </div>
     </header>
-    <!-- 试用标题-->
+
+    <!-- 发现酷玩 -->
+    <!-- 导航 -->
     <nav>
-        <div id="use_title">
-            <p>免费试用</p>
-            <a href="./use_all.html">大众试用</a>
-            <a href="./UEE all.html">体验师专享</a>
-        </div>
-        <!-- 试用导航 -->
-        <div id="use_nav">
-            <div>
-                <a href="./use_all.html">全部</a>
-                <a href="./use_applying.html">申请中</a>
-                <a href="./use_on tria.html">试用中</a>
-                <a href="./use_complete.html">已结束</a>
-            </div>
-        </div>
+        <h1>发现酷玩</h1>
+        <ul>
+            <li><a href="./coldplayhot.html">最新</a></li>
+            <li><a href="./coldplaynew.html">最热</a></li>
+            <li><a href="#">品类</a></li>
+        </ul>
     </nav>
-    <!-- 主要内容 -->
-    <section>
-        <div>
-            <ul class="mian_ul">
-            </ul>
-            <p>--没有更多了--</p>
-        </div>
-    </section>
-
-
-
-
-
-    <!-- 版权部分 -->
+    <!-- 主体 -->
+    <!-- 底部 -->
     <footer>
         <div>
             <dl>
@@ -83,8 +64,8 @@
                 </dd>
             </dl>
             <dl>
-                <dt><a href="../use_help.html">免费试用</a></dt>
-                <dd>试用流程<br/>如何提高成功率</dd>
+                <dt>免费试用</dt>
+                <dd>试用流程<br />如何提高成功率</dd>
             </dl>
             <dl>
                 <dt>友情链接</dt>
@@ -115,22 +96,7 @@
         </div>
         <p class="copyright">&copy; 2016 极果版权所有</p>
     </footer>
-    <script id="txt" type="text/HTML">
-        {{~it:ming:ind}}
-        <li>
-            <img src="{{=ming.img}}">
-            <span class="{{ if(it[ind].info_ty===`体验师专享`){}}activeColor{{ }}}">{{=ming.info_ty}}</span>
-            <h6>{{=ming.text}}</h6>
-            <span>{{=ming.totalnum}}</span>
-            <span>{{=ming.num+'台'}}</span>
-            <p><span>{{=ming.apply}}</span>申请</p>
-            <span>查看试用名单</span>
-        </li>
-        {{~}}
-    </script>
 </body>
-<script src="../js/jquery-3.6.0.min.js"></script>
-<script src="../js/doT.min.js"></script>
-<script src="./js/use_all.js"></script>
+<script src="./js/coldplaysort.js"></script>
 
 </html>

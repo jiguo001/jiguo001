@@ -29,14 +29,7 @@ $(function () {
         }
     })
     // 轮播
-    $('.hot').slide({
-        titCell: ".hd ul",
-        mainCell: ".bd ul",
-        autoPage: true,
-        effect: "left",
-        autoPlay: true,
-        vis: 3
-    })
+
     // 发现酷玩
     $.ajax({
         url: 'http://localhost:3000/play/new',
