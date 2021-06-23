@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.qfd {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #FA7F6F;
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  box-shadow: 0 0 5px 0 #777 inset;
+}
+header div {
+  width: 1080px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+  line-height: 50px;
+  overflow: hidden;
+}
+header div > img {
+  float: left;
+}
+header div ul {
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+header div ul li {
+  float: left;
+  margin-left: 40px;
+}
+header div h1 {
+  float: right;
+}
+header div button {
+  float: right;
+  border: 1px solid #FA7F6F;
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+  margin: 10px 20px 0;
+}
+header div button a {
+  color: #FA7F6F;
+}
+nav {
+  background: url(../img/original.jpg) no-repeat -250px 0px;
+  height: 300px;
+  color: azure;
+  margin-bottom: 20px;
+}
+nav .ban {
+  width: 1080px;
+  margin: 0 auto;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+nav .ban .apply {
+  text-align: right;
+  position: absolute;
+  top: -250px;
+  right: -150px;
+  opacity: 0;
+}
+nav .ban .apply h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+nav .ban .apply span {
+  display: inline-block;
+  background-color: rgba(241, 225, 195, 0.4);
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+nav .ban .apply span:nth-child(2) {
+  margin-left: 85px;
+  text-align: center;
+}
+nav .ban .apply p {
+  font-size: 20px;
+  margin-top: 15px;
+}
+nav .ban .apply button {
+  color: azure;
+  font-size: 20px;
+  background-color: #FE5341;
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  border: none;
+}
+section {
+  position: relative;
+  /*渲染图片*/
+  /*导购精选*/
+}
+section .jianT {
+  width: 1140px;
+  display: inline-block;
+  position: absolute;
+  top: 145px;
+  left: 170px;
+}
+section .jianT .gt {
+  float: left;
+}
+section .jianT .lt {
+  float: right;
+}
+section .kuang {
+  width: 1080px;
+  margin: 0 auto;
+}
+section .kuang span {
+  color: brown;
+}
+section .kuang .hot {
+  overflow: hidden;
+}
+section .kuang .hot p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+section .kuang .hot .lun {
+  width: 2250px;
+  height: 250px;
+  margin-left: 0px;
+}
+section .kuang .hot .lun .lb {
+  width: 200px;
+  display: inline-block;
+  margin: 0 80px 50px 0;
+  position: relative;
+  text-align: center;
+  border: 1px solid #979494;
+  border-radius: 10px;
+}
+section .kuang .hot .lun .lb img {
+  border-radius: 10px 10px 0 0;
+}
+section .kuang .hot .lun .lb .shou {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: beige;
+  background-color: crimson;
+  border-radius: 5px;
+  font-size: 12px;
+}
+section .kuang .hot .lun .lb .hong {
+  display: inline-block;
+  border: 1px solid crimson;
+  padding: 5px;
+}
+section .kuang .hot .lun .lb p {
+  margin: 0;
+}
+section article {
+  margin: 20px 0px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+section article .zhuti {
+  width: 1080px;
+  margin: auto;
+}
+section article .zhuti div:nth-child(1) {
+  padding-top: 20px;
+  height: 30px;
+}
+section article .zhuti div:nth-child(1) p:nth-child(1) {
+  float: left;
+  font-weight: 600;
+}
+section article .zhuti div:nth-child(1) p:nth-child(1) a {
+  text-decoration: none;
+  color: #000;
+}
+section article .zhuti div:nth-child(1) p:nth-child(1) a:hover {
+  color: red;
+}
+section article .zhuti div:nth-child(1) p:nth-child(2) {
+  float: right;
+  color: red;
+  font-size: 12px;
+}
+section article .zhuti div:nth-child(1) p:nth-child(2) a {
+  text-decoration: none;
+  color: red;
+}
+section article .zhuti div:nth-child(1) p:nth-child(2) a:hover {
+  color: red;
+}
+section article .zhuti div:nth-child(2) ul {
+  list-style: none;
+}
+section article .zhuti div:nth-child(2) ul li {
+  margin-bottom: 30px;
+  background-color: #fff;
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 37px;
+}
+section article .zhuti div:nth-child(2) ul li img {
+  width: 220px;
+  border-radius: 10px;
+}
+section article .zhuti div:nth-child(2) ul li p:nth-child(2) {
+  font-size: 12px;
+  color: #494b48;
+  width: 200px;
+  margin: 20px auto;
+}
+section article .zhuti div:nth-child(2) ul li p:nth-child(3) {
+  color: #aeafb4;
+  font-size: 10px;
+  margin-left: 10px;
+  float: left;
+}
+section article .zhuti div:nth-child(2) ul li p:nth-child(4) {
+  color: #aeafb4;
+  font-size: 10px;
+  float: right;
+  margin-right: 20px;
+}
+section article .zhuti div:nth-child(2) ul li p:nth-child(4) img {
+  width: 13px;
+  vertical-align: middle;
+}
+section article .zhuti div:nth-child(2) ul li:nth-child(1) {
+  margin-left: 0px;
+}
+section .lunbotu {
+  overflow: hidden;
+  position: relative;
+  width: 1060px;
+  margin: auto;
+}
+section .lunbotu .remen {
+  width: 1000px;
+  margin: 20px 0px;
+  font-weight: 700;
+  margin-left: 52px;
+}
+section .lunbotu .xuanran {
+  width: 2500px;
+  height: 241px;
+  margin: auto;
+}
+section .lunbotu .lb {
+  margin-bottom: 10px;
+  float: left;
+  border: 1px solid #808080;
+  margin-left: 52px;
+}
+section .lunbotu .lb p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+section .lunbotu .lb span:nth-child(1) {
+  color: red;
+  margin-bottom: 10px;
+}
+section .lunbotu .lb .shengyu {
+  color: red;
+  margin-bottom: 10px;
+}
+section .lunbotu .lb .fangkuang {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  color: red;
+  display: inline-block;
+  border: 1px solid red;
+}
+section .lunbotu .lb .fangkuang_ {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  color: red;
+  display: inline-block;
+  border: 1px solid red;
+}
+section .lunbotu .zuo {
+  width: 37px;
+  height: 78px;
+  position: absolute;
+  left: 14px;
+  top: 140px;
+}
+section .lunbotu .you {
+  width: 37px;
+  height: 78px;
+  position: absolute;
+  right: 5px;
+  top: 140px;
+}
+section .section .zhuti {
+  width: 1080px;
+  margin: auto;
+}
+section .section .zhuti div:nth-child(1) {
+  padding-top: 20px;
+  height: 30px;
+}
+section .section .zhuti div:nth-child(1) p:nth-child(1) {
+  float: left;
+  font-weight: 600;
+}
+section .section .zhuti div:nth-child(1) p:nth-child(1) a {
+  text-decoration: none;
+  color: #000;
+}
+section .section .zhuti div:nth-child(1) p:nth-child(1) a:hover {
+  color: red;
+}
+section .section .zhuti div:nth-child(1) p:nth-child(2) {
+  float: right;
+  color: red;
+  font-size: 12px;
+}
+section .section .zhuti div:nth-child(1) p:nth-child(2) a {
+  text-decoration: none;
+  color: red;
+}
+section .section .zhuti div:nth-child(1) p:nth-child(2) a:hover {
+  color: red;
+}
+section .section .zhuti div:nth-child(2) ul {
+  list-style: none;
+}
+section .section .zhuti div:nth-child(2) ul li {
+  margin-bottom: 30px;
+  background-color: #fff;
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  float: left;
+  margin-left: 37px;
+}
+section .section .zhuti div:nth-child(2) ul li img {
+  width: 220px;
+  border-radius: 10px;
+}
+section .section .zhuti div:nth-child(2) ul li p:nth-child(2) {
+  color: #494b48;
+  font-size: 10px;
+  margin-left: 10px;
+  float: left;
+}
+section .section .zhuti div:nth-child(2) ul li p:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 34px;
+  color: #aeafb4;
+  font-size: 10px;
+  float: right;
+  margin-right: 20px;
+}
+section .section .zhuti div:nth-child(2) ul li p:nth-child(3) img {
+  width: 13px;
+  vertical-align: middle;
+}
+section .section .zhuti div:nth-child(2) ul li:nth-child(1) {
+  margin-left: 0px;
+}
+section .nav {
+  width: 100%;
+  background-color: #f0eeee;
+}
+section .nav .titou {
+  padding-top: 20px;
+  height: 30px;
+  width: 1080px;
+  margin: 0 auto;
+}
+section .nav .titou p:nth-child(1) {
+  float: left;
+  font-weight: 600;
+}
+section .nav .titou p:nth-child(1) a {
+  text-decoration: none;
+  color: #000;
+}
+section .nav .titou p:nth-child(1) a:hover {
+  color: red;
+}
+section .nav .titou p:nth-child(2) {
+  float: right;
+  color: red;
+  font-size: 12px;
+}
+section .nav .titou p:nth-child(2) a {
+  text-decoration: none;
+  color: red;
+}
+section .nav .titou p:nth-child(2) a:hover {
+  color: red;
+}
+section .nav .kuwan {
+  width: 1080px;
+  margin: 0 auto;
+}
+section .nav .tua {
+  display: inline-block;
+  width: 200px;
+  height: 235px;
+  background-color: #ffffff;
+  margin: 0 70px 30px 0;
+  border-radius: 10px;
+}
+section .nav .tua img {
+  border-radius: 10px 10px 0 0;
+}
+section .nav .tua p {
+  margin: 0;
+  height: 60px;
+}
+section .nav .tua p:nth-child(3) {
+  height: 30px;
+  font-size: 16px;
+  color: #d6d6d6;
+  text-align: left;
+}
+section .nav .tua p:last-of-type {
+  color: #E17769;
+  height: 30px;
+  text-align: left;
+  width: 100%;
+}
+section .nav .tua p:last-of-type span {
+  float: right;
+  color: #aeafb4;
+}
+section .nav .gengduo {
+  width: 1080px;
+  margin: auto;
+  text-align: center;
+}
+section .nav .gengduo a {
+  color: #FE5341;
+}
+footer {
+  background-color: #505050;
+  width: 100%;
+}
+footer div {
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 12px;
+}
+footer div dl {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 20px 0px;
+}
+footer div dl dt {
+  margin-bottom: 10px;
+}
+footer div dl dd {
+  color: #AAA3A5;
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer div dl dd span {
+  display: inline-block;
+  width: 60px;
+}
+footer .copyright {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  color: #AAA3A5;
+  height: 40px;
+  line-height: 20px;
+}
