@@ -74,6 +74,96 @@ header {
     }
 }
 
+// 发现酷玩
+// 导航
+nav {
+    width: 1080px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        line-height: 100px;
+        font-size: 40px;
+    }
+
+    ul {
+
+        li {
+            display: inline-block;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+
+            a {
+                color: #777;
+            }
+        }
+
+        li:nth-child(3),
+        li:hover {
+            border-bottom: 5px solid @col;
+
+            a {
+                color: @col;
+            }
+        }
+
+    }
+}
+
+// 主体
+section {
+    background-color: #f7f7f7;
+    padding: 30px 0;
+
+    .section {
+        width: 1080px;
+        margin: 0 auto;
+
+        .zhan {
+            background-color: rgb(255, 255, 255);
+            border-radius: 3%;
+            padding-top: 15px;
+            margin-bottom: 30px;
+
+            &>p {
+                border-left: 5px solid @col;
+                padding-left: 20px;
+                margin-bottom: 30px;
+            }
+
+            .zhong {
+                border-bottom: 1px dashed #d1cfcf;
+                padding-left: 30px;
+
+                .xiao {
+                    display: inline-block;
+                    width: 160px;
+                    height: 130px;
+
+                    p {
+                        color: #d1cfcf;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .xia {
+                p {
+                    display: inline-block;
+                    color: #d1cfcf;
+                    font-size: 14px;
+                    text-align: center;
+                    width: 210px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}
+
 // 底部
 footer {
     background-color: #505050;
