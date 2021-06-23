@@ -7,12 +7,13 @@ $(function() {
             console.log(data);
             var newdata = [];
             for (var i = 0; i < data.length; i++) {
-                if (data[i].info_ty === '体验师转享') {
+                data[i].img = data[i].img.replace(/192.168.1.13/g, 'localhost')
+                if (data[i].info_ty === '体验师专享') {
                     //     console.log(data[i]);
                     newdata.push(data[i])
                 }
                 // if (data[i].info_ty === '首发') {
-                //     data[i].info_ty = '体验师转享'
+                //     data[i].info_ty = '体验师专享'
                 //     console.log(data[i]);
                 // }
             }
