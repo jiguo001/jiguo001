@@ -65,6 +65,9 @@ article .tit {
   line-height: 135px;
   text-align: center;
 }
+article .bian {
+  color: #fb534a;
+}
 article ul {
   width: 720px;
   height: 60px;
@@ -82,10 +85,10 @@ article ul li {
 article ul li a {
   color: #313131;
 }
-article ul li:nth-child(2) {
+article ul li:nth-child(1) {
   border-bottom: 4px solid #fd5238;
 }
-article ul li:nth-child(2) a {
+article ul li:nth-child(1) a {
   color: #fd5238;
 }
 article ul li:hover {
