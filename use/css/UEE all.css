@@ -71,7 +71,7 @@ section div ul li span:nth-child(2) {
   position: absolute;
   top: 0;
   right: 0;
-  width: 40px;
+  padding: 0px 5px;
   height: 20px;
   border-radius: 0px 10px;
   border: 1px solid red;
@@ -153,6 +153,11 @@ section div ul li:nth-child(4n+1) > span:nth-child(5) {
 section div ul li:nth-child(4n+1) span:nth-child(7) {
   font-size: 13px;
   color: #FB5A2E;
+}
+section div ul .activeColor {
+  background-color: #FEF4D0 !important;
+  color: #C2A864 !important;
+  border: 1px solid #FEF4D0 !important;
 }
 section div > p {
   width: 1080px;

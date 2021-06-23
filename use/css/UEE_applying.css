@@ -71,11 +71,9 @@ section div ul li span:nth-child(2) {
   position: absolute;
   top: 0;
   right: 0;
-  width: 40px;
+  padding: 0px 5px;
   height: 20px;
   border-radius: 0px 10px;
-  border: 1px solid red;
-  background-color: red;
   font-size: 10px;
   color: #fff;
 }
@@ -94,65 +92,26 @@ section div ul li span:nth-child(7) {
   bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 13px;
+  color: #FB5A2E;
+}
+section div ul li > span:nth-child(4),
+section div ul li > span:nth-child(5) {
+  border: 1px solid #FB5A2E;
+  display: inline-block;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  font-size: 10px;
+  color: #FB5A2E;
 }
 section div ul li:nth-child(4n+4) {
   margin-right: 0px;
 }
-section div ul li:nth-child(4n+4) > span:nth-child(4),
-section div ul li:nth-child(4n+4) > span:nth-child(5) {
-  border: 1px solid #FB5A2E;
-  display: inline-block;
-  border-radius: 5px;
-  width: 50px;
-  height: 20px;
-  font-size: 10px;
-  color: #FB5A2E;
-}
-section div ul li:nth-child(4n+4) span:nth-child(7) {
-  font-size: 13px;
-  color: #FB5A2E;
-}
-section div ul li:nth-child(4n+3) > span:nth-child(4),
-section div ul li:nth-child(4n+3) > span:nth-child(5) {
-  border: 1px solid #AEA9BB;
-  display: inline-block;
-  border-radius: 5px;
-  width: 50px;
-  height: 20px;
-  font-size: 10px;
-  color: #AEA9BB;
-}
-section div ul li:nth-child(4n+3) span:nth-child(7) {
-  font-size: 13px;
-  color: #AEA9BB;
-}
-section div ul li:nth-child(4n+2) > span:nth-child(4),
-section div ul li:nth-child(4n+2) > span:nth-child(5) {
-  border: 1px solid #059c12;
-  display: inline-block;
-  border-radius: 5px;
-  width: 50px;
-  height: 20px;
-  font-size: 10px;
-  color: #059c12;
-}
-section div ul li:nth-child(4n+2) span:nth-child(7) {
-  font-size: 13px;
-  color: #059c12;
-}
-section div ul li:nth-child(4n+1) > span:nth-child(4),
-section div ul li:nth-child(4n+1) > span:nth-child(5) {
-  border: 1px solid #FB5A2E;
-  display: inline-block;
-  border-radius: 5px;
-  width: 50px;
-  height: 20px;
-  font-size: 10px;
-  color: #FB5A2E;
-}
-section div ul li:nth-child(4n+1) span:nth-child(7) {
-  font-size: 13px;
-  color: #FB5A2E;
+section div ul .activeColor {
+  background-color: #FEF4D0 !important;
+  color: #C2A864 !important;
+  border: 1px solid #FEF4D0 !important;
 }
 section div > p {
   width: 1080px;
@@ -160,4 +119,18 @@ section div > p {
   line-height: 150px;
   text-align: center;
   color: #AEA9BB;
+}
+#backtop {
+  position: fixed;
+  right: 100px;
+  bottom: 200px;
+}
+#backtop p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+#backtop p:hover {
+  color: #FB5A2E;
 }

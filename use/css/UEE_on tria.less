@@ -71,7 +71,7 @@ section{
                     position: absolute;
                     top: 0;
                     right: 0;
-                    width: 40px;
+                    padding: 0px 5px;
                     height: 20px;
                     border-radius: 0px 10px;
                     border: 1px solid red;
@@ -94,72 +94,28 @@ section{
                     bottom: 15px;
                     left: 50%;
                     transform: translateX(-50%);
+                    font-size: 13px;
+                    color: @col2;
                 }
+                &>span:nth-child(4),
+                &>span:nth-child(5){
+                 border: 1px solid @col2;
+                 display: inline-block;
+                 border-radius: 5px;
+                 width: 50px;
+                 height: 20px;
+                 font-size: 10px;
+                 color: @col2;
+                 }
             }
             li:nth-child(4n+4){
                 margin-right: 0px;
-               &>span:nth-child(4),
-               &>span:nth-child(5){
-                border: 1px solid @col;
-                display: inline-block;
-                border-radius: 5px;
-                width: 50px;
-                height: 20px;
-                font-size: 10px;
-                color: @col;
-                }
-                span:nth-child(7){
-                   font-size: 13px;
-                   color: @col;
-                }
+             
             }
-            li:nth-child(4n+3){
-               &>span:nth-child(4),
-               &>span:nth-child(5){
-                border: 1px solid @colall;
-                display: inline-block;
-                border-radius: 5px;
-                width: 50px;
-                height: 20px;
-                font-size: 10px;
-                color: @colall;
-                }
-                span:nth-child(7){
-                   font-size: 13px;
-                   color: @colall;
-                }
-            }
-            li:nth-child(4n+2){
-               &>span:nth-child(4),
-               &>span:nth-child(5){
-                border: 1px solid @col2;
-                display: inline-block;
-                border-radius: 5px;
-                width: 50px;
-                height: 20px;
-                font-size: 10px;
-                color: @col2;
-                }
-                span:nth-child(7){
-                   font-size: 13px;
-                   color: @col2;
-                }
-            }
-            li:nth-child(4n+1){
-               &>span:nth-child(4),
-               &>span:nth-child(5){
-                border: 1px solid @col;
-                display: inline-block;
-                border-radius: 5px;
-                width: 50px;
-                height: 20px;
-                font-size: 10px;
-                color: @col;
-                }
-                span:nth-child(7){
-                   font-size: 13px;
-                   color: @col;
-                }
+            .activeColor{
+                background-color: #FEF4D0 !important;
+                color: #C2A864 !important;
+                border: 1px solid #FEF4D0 !important;
             }
         }
         &>p{

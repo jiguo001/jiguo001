@@ -120,7 +120,7 @@
         {{~it:ming:ind}}
         <li>
             <img src="{{=ming.img}}">
-            <span>{{=ming.info_ty}}</span>
+            <span class="{{ if(it[ind].info_ty===`体验师转享`){}}activeColor{{ }}}">{{=ming.info_ty}}</span>
             <h6>{{=ming.text}}</h6>
             <span>{{=ming.totalnum}}</span>
             <span>{{=ming.num+'台'}}</span>
@@ -132,6 +132,6 @@
 </body>
 <script src="../js/jquery-3.6.0.min.js"></script>
 <script src="../js/doT.min.js"></script>
-<script src="./js/use_all.js"></script>
+<script src="./js/UEE_all.js"></script>
 
 </html>
