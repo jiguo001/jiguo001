@@ -1,0 +1,124 @@
+nav {
+  width: 100%;
+}
+nav #use_title {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav #use_title p {
+  font-size: 35px;
+  padding: 25px 0 5px;
+}
+nav #use_title a {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  color: #AEA9BB;
+  text-align: center;
+}
+nav #use_title a:nth-child(3) {
+  color: #FB5A2E;
+  border-bottom: 5px solid #FB5A2E;
+}
+nav #use_nav {
+  border-top: 1px solid #eaeaea;
+}
+nav #use_nav div {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav #use_nav div a {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  color: #AEA9BB;
+}
+nav #use_nav div a:nth-child(3) {
+  color: #000;
+}
+section {
+  width: 100%;
+  background-color: #F7F7F7;
+}
+section div {
+  width: 1080px;
+  margin: 0 auto;
+}
+section div ul {
+  overflow: hidden;
+}
+section div ul li {
+  float: left;
+  width: 220px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  margin-right: 65px;
+  margin-top: 40px;
+}
+section div ul li img {
+  width: 220px;
+  height: 120px;
+}
+section div ul li span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0px 5px;
+  height: 20px;
+  border-radius: 0px 10px;
+  border: 1px solid red;
+  background-color: red;
+  font-size: 10px;
+  color: #fff;
+}
+section div ul li h6 {
+  font-size: 14px;
+  height: 50px;
+}
+section div ul li p {
+  margin-top: 10px;
+}
+section div ul li p span {
+  color: #FB5A2E;
+}
+section div ul li span:nth-child(7) {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  color: #059c12;
+}
+section div ul li > span:nth-child(4),
+section div ul li > span:nth-child(5) {
+  border: 1px solid #059c12;
+  display: inline-block;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  font-size: 10px;
+  color: #059c12;
+}
+section div ul li:nth-child(4n+4) {
+  margin-right: 0px;
+}
+section div ul .activeColor {
+  background-color: #FEF4D0 !important;
+  color: #C2A864 !important;
+  border: 1px solid #FEF4D0 !important;
+}
+section div > p {
+  width: 1080px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  color: #AEA9BB;
+}
