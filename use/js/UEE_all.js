@@ -10,6 +10,9 @@ $(function() {
                 //     console.log(data[i]);
                 //     newdata.push(data[i])
                 // }
+                // console.log(data[i]);
+                // if( data[i].img==)
+                // data = data[i].img.replace(/192.168.1.64/g, 'localhost')
                 if (data[i].info_ty === '首发') {
                     data[i].info_ty = '体验师转享'
                     console.log(data[i]);
