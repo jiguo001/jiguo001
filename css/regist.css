@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.qfd {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #FA7F6F;
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  box-shadow: 0 0 5px 0 #777 inset;
+}
+header div {
+  width: 1080px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+  line-height: 50px;
+  overflow: hidden;
+}
+header div > img {
+  float: left;
+}
+header div ul {
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+header div ul li {
+  float: left;
+  margin-left: 40px;
+}
+header div h1 {
+  float: right;
+}
+header div button {
+  float: right;
+  border: 1px solid #FA7F6F;
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+  margin: 10px 20px 0;
+}
+header div button a {
+  color: #FA7F6F;
+}
+section {
+  background-color: #f7f7f7;
+}
+section nav {
+  width: 108px;
+  margin: 30px auto;
+}
+footer {
+  background-color: #505050;
+  width: 100%;
+}
+footer div {
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 12px;
+}
+footer div dl {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 20px 0px;
+}
+footer div dl a,
+footer div dl a:hover {
+  color: #fff;
+}
+footer div dl dt {
+  margin-bottom: 10px;
+}
+footer div dl dd {
+  color: #AAA3A5;
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer div dl dd a,
+footer div dl dd a:hover {
+  color: #AAA3A5;
+}
+footer div dl dd span {
+  display: inline-block;
+  width: 60px;
+}
+footer .copyright {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  color: #AAA3A5;
+  height: 40px;
+  line-height: 20px;
+}
