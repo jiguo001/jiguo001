@@ -250,7 +250,7 @@ article .bx3 aside .eevv {
 }
 .tend .bxin {
   width: 1080px;
-  background-color: violet;
+  overflow: hidden;
 }
 .tend .bxin .tp1 .try1 {
   margin-right: 850px;
@@ -263,12 +263,28 @@ article .bx3 aside .eevv {
   color: #ff6657;
 }
 .tend .bxin .tup1 {
+  margin-right: 35px;
+  margin-top: 15px;
+  float: left;
+  border: 1px solid #eaeaea;
   width: 230px;
   text-align: center;
   font-size: 19px;
   color: #352e35;
-  background-color: yellow;
+}
+.tend .bxin .tup1 .an {
+  font-size: 14px;
+  border: 1px solid #f8563d;
+  border-radius: 15%;
+  color: #f8563d;
 }
 .tend .bxin .tup1 img {
   width: 230px;
+}
+.tend .bxin .tup1 .day {
+  color: #f8563d;
+}
+.tend .bxin .tup1 .ap2 {
+  color: #f8563d;
+  padding-bottom: 20px;
 }
