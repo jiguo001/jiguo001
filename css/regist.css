@@ -55,10 +55,50 @@ header div button a {
 }
 section {
   background-color: #f7f7f7;
+  padding: 30px 0;
 }
 section nav {
-  width: 108px;
-  margin: 30px auto;
+  width: 1080px;
+  margin: 0 auto;
+  padding-top: 10px;
+  background-color: #fff;
+}
+section nav p {
+  padding-left: 20px;
+  border-left: 5px solid #FA7F6F;
+}
+section nav form {
+  padding: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+section nav form input {
+  border: none;
+  outline: none;
+  background-color: #f7f7f7;
+  padding: 5px;
+  width: 350px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+section nav form input:nth-child(3),
+section nav form input:nth-child(6) {
+  width: 235px;
+}
+section nav form button:nth-child(7) {
+  width: 110px;
+  height: 40px;
+}
+section nav form button:last-child {
+  width: 360px;
+  height: 50px;
+  background-color: #FA7F6F;
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 50px;
 }
 footer {
   background-color: #505050;
