@@ -15,8 +15,8 @@ $(function () {
             var strHtml = "";
             data[ind].map(function (nItem) {
                 var Isrc = nItem.img.replace(/http:\/\/192.168.1.64/g, 'http://localhost')
-                strHtml += `<div class="lb">
-                <img src="${Isrc}" alt="" width="200">
+                strHtml += `<div class="swiper-slide">
+                <img src="${Isrc}" alt="" width="100%">
                 <span class="shou">首发</span>
                 <p>${nItem.description}</p>
                 <span class="hong">2032</span>
@@ -25,7 +25,18 @@ $(function () {
                 <span>剩余时间2天</span>
                 </div>`
             })
-            $('.lun').html(strHtml)
+            $('.swiper-wrapper').html(strHtml)
+            var mySwiper = new Swiper('.swiper-container', {
+                loop: true, // 循环模式选项
+                slidesPerView: 4,
+                spaceBetween: 30,
+                slidesPerGroup: 4,
+                // 如果需要前进后退按钮
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
         }
     })
     // 轮播

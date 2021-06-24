@@ -129,31 +129,24 @@ section .kuang {
 section .kuang span {
   color: brown;
 }
-section .kuang .hot {
-  overflow: hidden;
-}
 section .kuang .hot p {
   font-size: 20px;
   margin-bottom: 20px;
 }
-section .kuang .hot .lun {
-  width: 2250px;
-  height: 250px;
-  margin-left: 0px;
+section .kuang .hot .s-box {
+  width: 1080px;
 }
-section .kuang .hot .lun .lb {
-  width: 200px;
+section .kuang .hot .s-box .swiper-slide {
   display: inline-block;
-  margin: 0 80px 50px 0;
-  position: relative;
   text-align: center;
   border: 1px solid #979494;
   border-radius: 10px;
+  box-sizing: border-box;
 }
-section .kuang .hot .lun .lb img {
+section .kuang .hot .s-box .swiper-slide img {
   border-radius: 10px 10px 0 0;
 }
-section .kuang .hot .lun .lb .shou {
+section .kuang .hot .s-box .swiper-slide .shou {
   position: absolute;
   top: 0;
   right: 0;
@@ -162,7 +155,7 @@ section .kuang .hot .lun .lb .shou {
   border-radius: 5px;
   font-size: 12px;
 }
-section .kuang .hot .lun .lb .hong {
+section .kuang .hot .s-box .swiper-slide .hong {
   display: inline-block;
   border: 1px solid #fb5a2e;
   border-radius: 5px;
@@ -171,7 +164,7 @@ section .kuang .hot .lun .lb .hong {
   font-size: 10px;
   color: #fb5a2e;
 }
-section .kuang .hot .lun .lb p {
+section .kuang .hot .s-box .swiper-slide p {
   margin: 0;
 }
 section article {

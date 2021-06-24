@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" sizes="any" mask href="https://s2.jiguo.com/d2634223-0991-4b26-93fd-adbd5f8ef619/230x230">
     <title>极果---首页</title>
+    <link rel="stylesheet" href="./swiper-bundle.css">
     <link rel="stylesheet" href="./css/index.css">
+    <style>
+        .swiper-container {
+            width: 1080px;
+            height: 300px;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,15 +58,17 @@
     </nav>
     <!-- 主体 -->
     <section>
-        <div class="jianT">
-            <span class="gt"><img src="./img/prev.png" alt=""></span>
-            <span class="lt"><img src="./img/next.png" alt=""></span>
-        </div>
         <div class="kuang">
             <!-- 热门试用 -->
             <div class="hot">
                 <p><b>热门试用</b></p>
-                <div class="lun">
+                <div class="s-box">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -264,6 +273,7 @@
         <p class="copyright">&copy; 2016 极果版权所有</p>
     </footer>
 </body>
+<script src="./swiper-bundle.js"></script>
 <script src="./js/jquery-3.6.0.js"></script>
 <script src="./js/index.js"></script>
 
