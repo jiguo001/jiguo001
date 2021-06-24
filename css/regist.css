@@ -90,7 +90,7 @@ section nav form button:nth-child(7) {
   width: 110px;
   height: 40px;
 }
-section nav form button:last-child {
+section nav form .subBtn {
   width: 360px;
   height: 50px;
   background-color: #FA7F6F;

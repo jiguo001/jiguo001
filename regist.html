@@ -41,7 +41,7 @@
     <section>
         <nav>
             <p>注册极果</p>
-            <form action="">
+            <form id="form1">
                 <input type="text" placeholder="请输入登录手机号"><span></span>
                 <input type="text" placeholder="请输入图片校验码">
                 <img src="./img/imgCode.jpg" alt=""><span></span>
@@ -50,8 +50,10 @@
                 <input type="text" placeholder="请输入用户名"><span></span>
                 <input type="password" placeholder="请输入新密码"><span></span>
                 <input type="password" placeholder="确认新密码">
-                <button>立即注册</button>
+                <!-- <button>立即注册</button> -->
+                <input class="subBtn" type="submit" value="立即注册">
             </form>
+
         </nav>
     </section>
     <!-- 底部 -->
@@ -105,5 +107,7 @@
         <p class="copyright">&copy; 2016 极果版权所有</p>
     </footer>
 </body>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/regist.js"></script>
 
 </html>
