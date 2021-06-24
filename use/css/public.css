@@ -66,14 +66,14 @@ footer div dl {
   font-size: 16px;
   margin: 20px 20px 0px;
 }
+footer div dl a {
+  color: #fff !important;
+}
+footer div dl a:hover {
+  color: #fff !important;
+}
 footer div dl dt {
   margin-bottom: 10px ;
-}
-footer div dl dt a {
-  color: #fff;
-}
-footer div dl dt a:hover {
-  color: #fff;
 }
 footer div dl dd {
   color: #AAA3A5;
