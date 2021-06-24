@@ -1,0 +1,70 @@
+// 验证倒计时
+var i = 10;
+var n = '获取验证码';
+var s;
+$('button').eq(1).click(function (e) {
+    $('button').eq(1).text(i + '秒后获取验证码').attr('disabled', true);
+    s = setInterval(function () {
+        i--;
+        if (i > 0) {
+            console.log(i);
+            $('button').eq(1).text(i + '秒后获取验证码');
+        } else {
+            clearInterval(s);
+            $('button').eq(1).text(n).attr('disabled', false);
+            i = 10;
+        }
+    }, 1000)
+    return false;
+})
+// 文本框验证
+// 手机
+$('input').eq(1).blur(function () {
+    var shou = /^1[3|4|5|7|8][0-9]{9}$/;
+    if (shou.test($(this).val()) == false) {
+        alert('请输入正确的手机号!');
+    }
+});
+// 图片码
+$('input').eq(2).blur(function () {
+    if ($(this).val() != 'r2b7') {
+        alert('请输入正确的验证码')
+    }
+});
+// 用户名
+$('input').eq(4).blur(function () {
+    var yong = /^[\w\S]{4,10}/;
+    if (yong.test($(this).val()) == false) {
+        alert('请输入正确的用户名!');
+    }
+});
+// 密码
+$('input').eq(5).blur(function () {
+    var mi = /^[\w\S]{6,16}$/;
+    if (mi.test($(this).val()) == false) {
+        alert('密码格式不正确！');
+    }
+});
+// 确认密码
+$('input').eq(6).blur(function () {
+    if ($(this).val() != $('input').eq(5).val()) {
+        alert('请重新确认密码');
+    }
+});
+// 提交
+$('button').eq(2).click(function () {
+    $.ajax({
+        url: 'http://localhost:3000/users/regist',
+        type: 'POST',
+        dataType: 'JSON',
+        data: {
+            phone: $('input').eq(1).val(),
+            code: $('input').eq(2).val(),
+            username: $('input').eq(4).val(),
+            password: $('input').eq(5).val()
+        },
+        success: function (data) {
+            console.log(data);
+        }
+    })
+})
