@@ -139,7 +139,7 @@ section .kuang .hot .s-box {
 section .kuang .hot .s-box .swiper-slide {
   display: inline-block;
   text-align: center;
-  border: 1px solid #979494;
+  border: 1px solid #ebe6e6;
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -375,7 +375,7 @@ section .section .zhuti div:nth-child(2) ul li p:nth-child(2) {
 }
 section .section .zhuti div:nth-child(2) ul li p:nth-child(3) {
   margin-top: 20px;
-  margin-bottom: 34px;
+  margin-bottom: 20px;
   color: #aeafb4;
   font-size: 10px;
   float: right;
