@@ -161,8 +161,12 @@ section .kuang .hot .lun .lb .shou {
 }
 section .kuang .hot .lun .lb .hong {
   display: inline-block;
-  border: 1px solid crimson;
+  border: 1px solid #fb5a2e;
   padding: 5px;
+  width: 50px;
+  height: 20px;
+  font-size: 10px;
+  color: #fb5a2e;
 }
 section .kuang .hot .lun .lb p {
   margin: 0;
@@ -391,6 +395,7 @@ section .section .zhuti div:nth-child(2) ul li:nth-child(1) {
 section .nav {
   width: 100%;
   background-color: #f0eeee;
+  padding-bottom: 30px;
 }
 section .nav .titou {
   padding-top: 20px;

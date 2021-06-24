@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/use_all.css">
-    <title>Document</title>
+    <title>极果---免费试用</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
             <img src="../img/logonew.png" alt="login" width="130" height="50">
             <ul>
                 <li>
-                    <a href="#">首页</a>
+                    <a href="../index.html">首页</a>
                 </li>
                 <li>
                     <a href="#">酷玩</a>
@@ -75,15 +75,15 @@
             <dl>
                 <dt><img src="../img/logoImg.jpg"></dt>
                 <dd>
-                    全球酷玩试用导购平台<br/>酷·新司好玩·品质
+                    全球酷玩试用导购平台<br />酷·新司好玩·品质
                 </dd>
                 <dd>
-                    微信添加"JguoJguo"<br/>获取我们的服务。
+                    微信添加"JguoJguo"<br />获取我们的服务。
 
                 </dd>
             </dl>
             <dl>
-                <dt>免费试用</dt>
+                <dt><a href="../use_help.html">免费试用</a></dt>
                 <dd>试用流程<br/>如何提高成功率</dd>
             </dl>
             <dl>
@@ -119,7 +119,7 @@
         {{~it:ming:ind}}
         <li>
             <img src="{{=ming.img}}">
-            <span>{{=ming.info_ty}}</span>
+            <span class="{{ if(it[ind].info_ty===`体验师专享`){}}activeColor{{ }}}">{{=ming.info_ty}}</span>
             <h6>{{=ming.text}}</h6>
             <span>{{=ming.totalnum}}</span>
             <span>{{=ming.num+'台'}}</span>

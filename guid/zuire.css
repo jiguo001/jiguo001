@@ -4,6 +4,7 @@
   list-style: none;
   margin: 0 auto;
   vertical-align: bottom;
+  text-decoration: none;
 }
 header .head {
   position: relative;
@@ -27,6 +28,9 @@ header .head ul li a {
   color: #313131;
 }
 header .head ul li a:hover {
+  color: #fb534a;
+}
+header .head ul li:nth-child(3) a {
   color: #fb534a;
 }
 header .head .zc {
@@ -75,21 +79,34 @@ article ul li {
   color: #a4a4a4;
   text-align: center;
 }
-article ul li:hover {
-  color: #fd5238;
+article ul li a {
+  color: #313131;
+}
+article ul li:nth-child(2) {
   border-bottom: 4px solid #fd5238;
+}
+article ul li:nth-child(2) a {
+  color: #fd5238;
+}
+article ul li:hover {
+  border-bottom: 4px solid #fd5238;
+}
+article ul li:hover a {
+  color: #fd5238;
 }
 .ctt {
   background-color: #f7f7f7;
 }
-.ctt .ctn {
+.ctt .ctn,
+.ctt .gengduo {
   padding-top: 26px;
   width: 1080px;
   overflow: hidden;
   font-size: 13px;
   color: #494949;
 }
-.ctt .ctn div {
+.ctt .ctn div,
+.ctt .gengduo div {
   margin-left: 24px;
   margin-right: 23px;
   float: left;
@@ -98,7 +115,8 @@ article ul li:hover {
   margin-bottom: 20px;
   background: url(../img/xin.png) no-repeat 200px 168px, url(../img/reply.png) no-repeat 180px 168px;
 }
-.ctt .ctn div img {
+.ctt .ctn div img,
+.ctt .gengduo div img {
   width: 223px;
   height: 132px;
   margin-bottom: 10px;

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/public.css">
     <link rel="stylesheet" href="./css/use_on tria.css">
-    <title>Document</title>
+    <title>极果---免费试用</title>
 </head>
 
 <body>
@@ -84,7 +84,7 @@
                 </dd>
             </dl>
             <dl>
-                <dt>免费试用</dt>
+                <dt><a href="../use_help.html">免费试用</a></dt>
                 <dd>试用流程<br/>如何提高成功率</dd>
             </dl>
             <dl>
@@ -120,12 +120,12 @@
         {{~it:ming:ind}}
         <li>
             <img src="{{=ming.img}}">
-            <span class="{{ if(it[ind].info_ty===`体验师转享`){}}activeColor{{ }}}">{{=ming.info_ty}}</span>
+            <span class="{{ if(it[ind].info_ty===`体验师专享`){}}activeColor{{ }}}">{{=ming.info_ty}}</span>
             <h6>{{=ming.text}}</h6>
             <span>{{=ming.totalnum}}</span>
             <span>{{=ming.num+'台'}}</span>
             <p><span>{{=ming.apply}}</span>申请</p>
-            <span>查看试用名单</span>
+            <span>试用人：{{=ming.uName}}</span>
         </li>
         {{~}}
     </script>

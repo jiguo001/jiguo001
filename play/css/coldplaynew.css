@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.qfd {
+  clear: both;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #FB5A2E;
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  box-shadow: 0 0 5px 0 #777 inset;
+}
+header div {
+  width: 1080px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 10px 0 10px 0;
+  line-height: 50px;
+  overflow: hidden;
+}
+header div > img {
+  float: left;
+}
+header div ul {
+  overflow: hidden;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+header div ul li {
+  float: left;
+  margin-left: 40px;
+}
+header div ul li:nth-child(2) a {
+  color: #FB5A2E;
+}
+header div h1 {
+  float: right;
+}
+header div button {
+  float: right;
+  border: 1px solid #FB5A2E;
+  background-color: #fff;
+  width: 50px;
+  height: 30px;
+  margin: 10px 20px 0;
+}
+header div button a {
+  color: #FB5A2E;
+}
+nav {
+  width: 1080px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav h1 {
+  line-height: 100px;
+  font-size: 40px;
+}
+nav ul li {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+}
+nav ul li a {
+  color: #777;
+}
+nav ul li:nth-child(1),
+nav ul li:hover {
+  border-bottom: 5px solid #FB5A2E;
+}
+nav ul li:nth-child(1) a,
+nav ul li:hover a {
+  color: #FB5A2E;
+}
+section {
+  background-color: #f7f7f7;
+  padding-bottom: 30px;
+}
+section .section {
+  width: 1080px;
+  margin: 0 auto;
+}
+section .section .tua {
+  display: inline-block;
+  width: 200px;
+  height: 235px;
+  background-color: #ffffff;
+  margin: 0 70px 30px 0;
+  border-radius: 10px;
+}
+section .section .tua img {
+  border-radius: 10px 10px 0 0;
+}
+section .section .tua p {
+  margin: 0;
+  height: 60px;
+}
+section .section .tua p:nth-child(3) {
+  height: 30px;
+  font-size: 16px;
+  color: #d6d6d6;
+  text-align: left;
+}
+section .section .tua p:last-of-type {
+  color: #E17769;
+  height: 30px;
+  text-align: left;
+  width: 100%;
+}
+section .section .tua p:last-of-type span {
+  float: right;
+  color: #aeafb4;
+}
+section .section .gengduo {
+  width: 1080px;
+  margin: auto;
+  text-align: center;
+}
+section .section .gengduo a {
+  color: #FE5341;
+}
+footer {
+  background-color: #505050;
+  width: 100%;
+}
+footer div {
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 12px;
+}
+footer div dl {
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 20px 20px 0px;
+}
+footer div dl dt {
+  margin-bottom: 10px;
+}
+footer div dl dd {
+  color: #AAA3A5;
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer div dl dd span {
+  display: inline-block;
+  width: 60px;
+}
+footer .copyright {
+  width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 12px;
+  color: #AAA3A5;
+  height: 40px;
+  line-height: 20px;
+}
