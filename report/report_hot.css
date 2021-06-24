@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  vertical-align: bottom;
+  text-decoration: none;
+}
+article .tit {
+  width: 1080px;
+  height: 135px;
+  font-size: 42px;
+  color: #32322a;
+  line-height: 135px;
+  text-align: center;
+}
+article ul {
+  width: 720px;
+  height: 60px;
+  overflow: hidden;
+  padding-left: 380px;
+}
+article ul li {
+  float: left;
+  font-size: 20px;
+  width: 165px;
+  text-decoration: none;
+  color: #a4a4a4;
+  text-align: center;
+}
+article ul li a {
+  color: #313131;
+}
+article ul li:nth-child(2) {
+  border-bottom: 4px solid #fd5238;
+}
+article ul li:nth-child(2) a {
+  color: #fd5238;
+}
+article ul li:hover {
+  border-bottom: 4px solid #fd5238;
+}
+article ul li:hover a {
+  color: #fd5238;
+}
+aside {
+  background-color: #f6f6f6;
+}
+aside .bx1 {
+  width: 1080px;
+  position: relative;
+}
+aside .bx1 .left {
+  width: 710px;
+  margin-left: 0;
+}
+aside .bx1 .left div {
+  width: 710px;
+  border: 5px solid #e6e6e6;
+  margin-bottom: 20px;
+  background: url(../img/xin.png) no-repeat 650px 480px, url(../img/reply.png) no-repeat 680px 480px;
+}
+aside .bx1 .left div p {
+  font-size: 20px;
+  color: #545456;
+  padding: 25px  0 40px 0;
+}
+aside .bx1 .left div img {
+  width: 700px;
+}
+aside .bx1 section {
+  position: absolute;
+  right: 68px;
+  top: 0px;
+  width: 220px;
+  border-color: #ffffff;
+}
+aside .bx1 section .tt1 {
+  margin: 0 0;
+  font-size: 20px;
+  color: #4f4f4f;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-left: 6px solid #ff5537;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+aside .bx1 section .ppa {
+  font-size: 35px;
+  color: #f8513e;
+  margin-top: 30px;
+}
+aside .bx1 section button {
+  width: 250px;
+  height: 50px;
+  background-color: #fe5341;
+  color: #fff6ff;
+  font-size: 18px;
+  border: 0px solid transparent;
+  border-radius: 5%;
+  margin-top: 15px;
+}
+aside .bx1 section .tt2 {
+  font-size: 15px;
+  color: #c1bfcd;
+  text-align: center;
+  margin-top: 15px;
+}
+aside .bx1 section .ppa1 {
+  font-size: 13px;
+  color: #959fa0;
+  margin-top: 10px;
+  line-height: 20px;
+}
+aside .bx1 section .ppa2 {
+  font-size: 18px;
+  color: #3b3229;
+  margin-top: 15px;
+}
+aside .bx1 section .eevv {
+  margin-top: 20px;
+}
