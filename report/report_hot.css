@@ -31,6 +31,12 @@ article ul li {
 article ul li a {
   color: #313131;
 }
+article ul li:nth-child(2) {
+  border-bottom: 4px solid #fd5238;
+}
+article ul li:nth-child(2) a {
+  color: #fd5238;
+}
 article ul li:hover {
   border-bottom: 4px solid #fd5238;
 }
