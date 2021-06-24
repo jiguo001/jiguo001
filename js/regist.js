@@ -20,7 +20,7 @@ $('button').eq(1).click(function (e) {
 // 文本框验证
 // 手机
 $('input').eq(1).blur(function () {
-    var shou = /^1[3|4|5|7|8][0-9]{9}$/;
+    var shou = /^1[3|4|5|6|7|8|9]\d{9}$/g;
     if (shou.test($(this).val()) == false) {
         alert('请输入正确的手机号!');
     }
@@ -33,14 +33,14 @@ $('input').eq(2).blur(function () {
 });
 // 用户名
 $('input').eq(4).blur(function () {
-    var yong = /^[\w\S]{4,10}/;
+    var yong = /^(\w|[\u4e00-\u9fa5]){4,8}$/g;
     if (yong.test($(this).val()) == false) {
         alert('请输入正确的用户名!');
     }
 });
 // 密码
 $('input').eq(5).blur(function () {
-    var mi = /^[\w\S]{6,16}$/;
+    var mi = /^\w{6,12}$/g;
     if (mi.test($(this).val()) == false) {
         alert('密码格式不正确！');
     }
