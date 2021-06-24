@@ -57,8 +57,8 @@ article {
   background-color: #f6f6f6;
 }
 article .zkj {
+  position: relative;
   width: 1080px;
-  background-color: chartreuse;
 }
 article .zkj .xbt {
   padding-bottom: 20px;
@@ -129,6 +129,32 @@ article .zkj .mc .sxp {
   margin-left: 25px;
   color: #989c9f;
   padding: 30px 0px;
+}
+article .zkj aside {
+  position: absolute;
+  right: 0px;
+  top: 54px;
+}
+article .zkj aside ul {
+  width: 270px;
+  height: 116px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+article .zkj aside ul li {
+  float: left;
+  width: 133px;
+  height: 51px;
+  font-size: 13px;
+  color: #a8b0bb;
+  text-align: center;
+  padding-top: 65px;
+}
+article .zkj aside ul li:first-child {
+  background: url(../img/xinRedo.png) no-repeat 52px 30px;
+}
+article .zkj aside ul li:nth-child(2) {
+  background: url(../img/share_yj1.png) no-repeat 52px 30px;
 }
 footer {
   background-color: #505050;

@@ -59,8 +59,9 @@ header {
 article{
     background-color: #f6f6f6;
     .zkj{
+        position: relative;
         width: 1080px;
-        background-color: chartreuse;
+        // background-color: chartreuse;
         .xbt{
             padding-bottom: 20px;
             padding: 18px 0px;
@@ -140,8 +141,30 @@ article{
 
         }
         aside{
+            position: absolute;
+            right: 0px;
+            top: 54px;
             ul{
-                
+                width: 270px;
+                height: 116px;
+                overflow: hidden;
+                background-color: #ffffff;
+                li{
+                    float: left;
+                    width: 133px;
+                    height: 51px;
+                    // background-color: #f8563d;
+                    font-size: 13px;
+                    color: #a8b0bb;
+                    text-align: center;
+                    padding-top: 65px;
+                }
+                li:first-child{
+                    background: url(../img/xinRedo.png) no-repeat 52px 30px;
+                }
+                li:nth-child(2){
+                    background:url(../img/share_yj1.png) no-repeat 52px 30px
+                }
             }
         }
     }
