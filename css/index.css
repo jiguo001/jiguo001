@@ -488,6 +488,12 @@ footer div dl {
 footer div dl dt {
   margin-bottom: 10px;
 }
+footer div dl dt a {
+  color: #fff !important;
+}
+footer div dl dt a:hover {
+  color: #fff !important;
+}
 footer div dl dd {
   color: #AAA3A5;
   font-size: 12px;

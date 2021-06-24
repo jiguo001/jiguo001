@@ -70,10 +70,10 @@ footer div dl dt {
   margin-bottom: 10px ;
 }
 footer div dl dt a {
-  color: #fff;
+  color: #fff !important;
 }
 footer div dl dt a:hover {
-  color: #fff;
+  color: #fff !important;
 }
 footer div dl dd {
   color: #AAA3A5;
